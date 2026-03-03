@@ -1,14 +1,13 @@
 {
-  "name": "nodejs-app",
+  "name": "sage-bot",
   "version": "1.0.0",
-  "description": "A minimal Node.js web application.",
-  "main": "app.js",
-  "author": "alphasec",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.19.2"
-  },
+  "description": "Sage - Creative Executor for Asthera Creative Co.",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "openai": "^4.0.0"
   }
 }
